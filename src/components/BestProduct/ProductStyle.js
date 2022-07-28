@@ -44,7 +44,6 @@ export const WrapText = styled.div`
 
 export const CardContainer = styled.div`
   background: #eaf2e5;
-  margin: 0 24px;
   .textWrap {
     padding: 5px 32px 30px 32px;
   }
@@ -65,8 +64,12 @@ export const CardContainer = styled.div`
 `;
 
 export const CardWrapp = styled.div`
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between; */
   display: grid;
   grid-template-columns: repeat(4, auto);
+  gap:50px ;
 `;
 
 export const CardImg = styled.img`

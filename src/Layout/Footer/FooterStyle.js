@@ -27,12 +27,25 @@ export const FirstCol = styled.div`
     padding: 24px 0;
     width: 305px;
   }
+
+  ul {
+    list-style: none;
+  }
+
+  li {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #5a5a5a;
+    margin: 16px 0;
+  }
 `;
 export const SocialIcons = styled.div`
   display: flex;
   color: #066f14;
   gap: 16px;
-  
+
   i {
     width: 48px;
     height: 48px;

@@ -25,7 +25,7 @@ export const FollowWrap = styled.div`
 `;
 export const CardsDiv = styled.div`
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 `;
 export const Card = styled.div``;
