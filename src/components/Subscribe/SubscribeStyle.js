@@ -54,7 +54,7 @@ export const InputDiv = styled.div`
   .Btn {
     position: absolute;
     top: 6px;
-    right: 110px;
+    right: 90px;
   }
 `;
 
