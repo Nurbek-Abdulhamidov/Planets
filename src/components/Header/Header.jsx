@@ -11,6 +11,7 @@ import {
   HeaderWrap,
   LeafImg,
   RightImg,
+  Rotate,
 } from "./HeaderStyle";
 
 class Header extends Component {
@@ -26,7 +27,9 @@ class Header extends Component {
           </p>
           <HeaderBtnDiv>
             <Button>Learn More</Button>
+            <Rotate>
             <LeafImg src={leafImg} />
+            </Rotate>
           </HeaderBtnDiv>
           <AboutCustomers>
             <FirstCustom>

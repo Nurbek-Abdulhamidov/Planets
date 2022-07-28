@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const WrapperFooter = styled.div`
   border-top: 1px solid #f4f4f4;
-  padding: 30px 120px;
+  padding: 30px 50px;
   background-color: #f4f4f4;
   display: grid;
   grid-template-columns: repeat(4, auto);

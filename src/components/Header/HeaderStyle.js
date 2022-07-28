@@ -1,4 +1,27 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
+
+const rotate = keyframes`
+  0% {
+    transform:translateY(-50px) ;
+  }
+  50% {
+    transform:translateY(50px) ;
+  }
+  50% {
+    transform:translateY(50px) ;
+  }0% {
+    
+    transform:translateY(0px) ;
+  }
+
+`;
+
+export const Rotate = styled.div`
+  display: inline-block;
+  animation: ${rotate} 5s linear infinite;
+  padding: 2rem 1rem;
+  font-size: 1.2rem;
+`;
 
 export const HeaderWrap = styled.div`
   margin: 35px 0;
@@ -62,7 +85,7 @@ export const FirstCustom = styled.div`
     font-size: 18px;
     line-height: 23px;
     color: #1a1a1a;
-    padding-left:10px ;
+    padding-left: 10px;
   }
 `;
 

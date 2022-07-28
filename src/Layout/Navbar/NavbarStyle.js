@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const WrapperNav = styled.div`
-  padding: 15px 120px;
+  padding: 15px 50px;
   display: flex;
   align-items: center;
   justify-content: space-between;

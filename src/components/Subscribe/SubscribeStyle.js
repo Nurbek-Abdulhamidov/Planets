@@ -1,4 +1,20 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
+
+const rotate = keyframes`
+  0% {
+    transform:translateY(0px) ;
+  }
+  50% {
+    transform:translateY(40px) ;
+  }
+  50% {
+    transform:translateY(40px) ;
+  }0% {
+    
+    transform:translateY(0px) ;
+  }
+  
+`;
 
 export const SubscribeWrap = styled.div`
   padding: 60px 90px;
@@ -43,6 +59,10 @@ export const InputDiv = styled.div`
 `;
 
 export const ImageWrapDiv = styled.div`
+  display: inline-block;
+  animation: ${rotate} 5s linear infinite;
+  padding: 2rem 1rem;
+  font-size: 1.2rem;
   position: relative;
   display: flex;
   justify-content: center;
