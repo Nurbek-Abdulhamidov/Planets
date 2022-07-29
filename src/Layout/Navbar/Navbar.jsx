@@ -18,7 +18,9 @@ class Navbar extends Component {
         </ListItems>
         <ButtonDiv>
           <button className="loginBtn">Log In</button>
-          <Button>Sign In</Button>
+          <Button>
+          Sign In
+          </Button>
         </ButtonDiv>
       </WrapperNav>
     );
